@@ -2,7 +2,7 @@
   "ModId": "mrfpc.patch.outfitseverywhere",
   "ModName": "DLC Outfits Apply Everywhere",
   "ModAuthor": "DeathChaos",
-  "ModVersion": "1.0.0",
+  "ModVersion": "0.9.0",
   "ModDescription": "Applies the player characters' equipped outfits with optional toggles for free roam or events, and even a separate randomization toggle.",
   "ModDll": "mrfpc.patch.outfitseverywhere.dll",
   "ModIcon": "Preview.png",
@@ -15,6 +15,7 @@
   "PluginData": {},
   "IsUniversalMod": false,
   "ModDependencies": [
+    "mrfpc.modloader",
     "Reloaded.Memory.SigScan.ReloadedII",
     "reloaded.sharedlib.hooks"
   ],

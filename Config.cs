@@ -17,7 +17,7 @@ namespace mrfpc.patch.outfitseverywhere.Configuration
         public bool EventOutfits { get; set; } = true;
 
         [DisplayName("Randomized Outfits")]
-        [Description("Will give the player a random outfit")]
+        [Description("Will randomize the player's model using any existing outfit")]
         [DefaultValue(true)]
         public bool RandomOutfits { get; set; } = true;
     }
