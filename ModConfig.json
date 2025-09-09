@@ -2,17 +2,61 @@
   "ModId": "mrfpc.patch.outfitseverywhere",
   "ModName": "DLC Outfits Apply Everywhere",
   "ModAuthor": "DeathChaos",
-  "ModVersion": "0.9.0",
-  "ModDescription": "Applies the player characters' equipped outfits with optional toggles for free roam or events, and even a separate randomization toggle.",
+  "ModVersion": "0.9.3",
+  "ModDescription": "Applies the player characters\u0027 equipped outfits with optional toggles for free roam or events, and even a separate randomization toggle.",
   "ModDll": "mrfpc.patch.outfitseverywhere.dll",
   "ModIcon": "Preview.png",
   "ModR2RManagedDll32": "x86/mrfpc.patch.outfitseverywhere.dll",
   "ModR2RManagedDll64": "x64/mrfpc.patch.outfitseverywhere.dll",
   "ModNativeDll32": "",
   "ModNativeDll64": "",
+  "Tags": [],
+  "CanUnload": false,
+  "HasExports": false,
   "IsLibrary": false,
   "ReleaseMetadataFileName": "mrfpc.patch.outfitseverywhere.ReleaseMetadata.json",
-  "PluginData": {},
+  "PluginData": {
+    "GitHubDependencies": {
+      "IdToConfigMap": {
+        "mrfpc.modloader": {
+          "Config": {
+            "UserName": "DeathChaos25",
+            "RepositoryName": "mrfpc.modloader",
+            "UseReleaseTag": true,
+            "AssetFileName": "Mod.zip"
+          },
+          "ReleaseMetadataName": "mrfpc.modloader.ReleaseMetadata.json"
+        },
+        "Reloaded.Memory.SigScan.ReloadedII": {
+          "Config": {
+            "UserName": "Reloaded-Project",
+            "RepositoryName": "Reloaded.Memory.SigScan",
+            "UseReleaseTag": false,
+            "AssetFileName": "Mod.zip"
+          },
+          "ReleaseMetadataName": "Reloaded.Memory.SigScan.ReloadedII.ReleaseMetadata.json"
+        },
+        "reloaded.sharedlib.hooks": {
+          "Config": {
+            "UserName": "Sewer56",
+            "RepositoryName": "Reloaded.SharedLib.Hooks.ReloadedII",
+            "UseReleaseTag": true,
+            "AssetFileName": "reloaded.sharedlib.hooks.zip"
+          },
+          "ReleaseMetadataName": "Sewer56.Update.ReleaseMetadata.json"
+        },
+        "crifs.v2.hook": {
+          "Config": {
+            "UserName": "Sewer56",
+            "RepositoryName": "CriFs.V2.Hook.ReloadedII",
+            "UseReleaseTag": false,
+            "AssetFileName": "Mod.zip"
+          },
+          "ReleaseMetadataName": "CriFs.V2.Hook.ReleaseMetadata.json"
+        }
+      }
+    }
+  },
   "IsUniversalMod": false,
   "ModDependencies": [
     "mrfpc.modloader",
@@ -20,6 +64,8 @@
     "reloaded.sharedlib.hooks"
   ],
   "OptionalDependencies": [],
-  "SupportedAppId": [ "metaphor.exe" ],
+  "SupportedAppId": [
+    "metaphor.exe"
+  ],
   "ProjectUrl": ""
 }
